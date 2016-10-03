@@ -14,29 +14,25 @@ def get_soup(arg):
 
 def get_categorys():
 	tags = get_soup("/app").find_all("ul", class_="index-category cicon")
-	categorys = list()
 	for tag in tags:
 		for link in tag.find_all("a"):
-			Mysql.insert_category(link.attrs['href'][1:])
-			categorys.append(link.attrs['href'])
-	return categorys
+			Mysql.insert_category(link.attrs['href'])
 
 
 def get_detail_page(arg):
-	part_apps = set()
 	for i in range(10):
-		tags = get_soup(arg + "?page=" + str(i + 1)).find_all("div", class_="category-template-title")
-		for tag in tags:
-			for link in tag.find_all("a"):
-				part_apps.add(link.attrs['href'])
-				print link.attrs['href']
-	return part_apps
+		if Mysql.search_apks(arg, i + 1) < 10:
+			tags = get_soup(arg + "?page=" + str(i + 1)).find_all("div", class_="category-template-title")
+			for tag in tags:
+				for link in tag.find_all("a"):
+					Mysql.insert_apks(arg, i + 1, link.attrs['href'])
+
 
 if __name__ == "__main__":
-	get_categorys()
-	# apps = set()
-	# for category in get_categorys():
-	# 	apps |= get_detail_page(category)
-	#
-	# for app in apps:
-	# 	print app
+	# get_categorys()
+	categorys = Mysql.get_all_categorys()
+	for category in categorys:
+		get_detail_page(category)
+		#
+		# for app in apps:
+		# 	print app
