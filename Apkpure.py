@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+import string
+
 import requests
 import Mysql
 from bs4 import BeautifulSoup
@@ -31,9 +34,46 @@ def get_detail_page(arg):
 				print e
 
 
+def get_detail_apk(arg):
+	try:
+		html = get_soup(arg)
+		tag = html.find("span", itemprop="fileSize")
+		if tag is None:
+			tag = html.find("span", class_="fsize")
+		str_size = tag.text.split(" ")[0]
+		if str_size[0:1] == "(":
+			str_size = str_size[1:]
+			print str_size
+		size = string.atof(str_size)
+
+		if tag.text.split(" ")[1] == "KB":
+			size /= 1024
+		if tag.text.split(" ")[1] == "GB":
+			size *= 1024
+
+		is_google = 0
+		button = html.find_all("a", class_="ga")[1]
+		link = button.attrs['href'].split("?")[0]
+		if link == "https://play.google.com/store/apps/details":
+			is_google = 1
+
+		Mysql.update_apk_size(arg, size, is_google)
+	except Exception, e:
+		print e
+
+
 if __name__ == "__main__":
+	# 爬取分类信息
 	# get_categorys()
+	# 根据分类信息爬取 apk 名字与连接
 	# categorys = Mysql.get_all_categorys()
 	# for category in categorys:
-	#	get_detail_page(category)
-	print "hello"
+	#	 get_detail_page(category)
+	# 根据 url 爬取 apk 文件的大小与来源
+	# apks = Mysql.get_all_apks()
+	# for apk in apks:
+	#	 get_detail_apk(apk)
+
+	apks = Mysql.get_apks(24)
+	for apk in apks:
+		print apk.size

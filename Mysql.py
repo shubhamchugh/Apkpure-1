@@ -55,7 +55,45 @@ def search_apks(category, page):
 def insert_apks(category, page, url):
 	conn = init()
 	cur = conn.cursor()
-	count = search_category(conn, url)
 	sql = "insert into apk_info(category, page, url, size) values (%s, %s, %s, 0)"
 	cur.execute(sql, [category, page, url])
 	close(conn)
+
+
+def get_all_apks():
+	conn = init()
+	cur = conn.cursor()
+	sql = "select * from apk_info where size = 0"
+	cur.execute(sql)
+	results = cur.fetchall()
+	apks = list()
+	for r in results:
+		apks.append(r[3])
+	return apks
+
+
+def update_apk_size(url, size, is_google):
+	conn = init()
+	cur = conn.cursor()
+	sql = "update apk_info set size = %s, isGoogle = %s where url = %s"
+	cur.execute(sql, [size, is_google, url])
+	close(conn)
+
+
+class apk:
+	def __init__(self, url, size):
+		self.url = url
+		self.size = size
+
+
+def get_apks(size):
+	conn = init()
+	cur = conn.cursor()
+	sql = "select * from apk_info where size > 0 and size <= %s order by size"
+	cur.execute(sql, [size])
+	results = cur.fetchall()
+	apks = list()
+	for r in results:
+		apk_info = apk(r[3], r[4])
+		apks.append(apk_info)
+	return apks
