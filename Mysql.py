@@ -125,3 +125,17 @@ def update_apk_download_link(url, link):
 	sql = "update apk_info set download_link = %s where url = %s"
 	cur.execute(sql, [link, url])
 	close(conn)
+
+
+def get_all_download_link(min, max):
+	conn = init()
+	cur = conn.cursor()
+	sql = "select * from apk_info where size > %s and size <= %s and download_link is not NULL order by size"
+	cur.execute(sql, [min, max])
+	results = cur.fetchall()
+	apks = list()
+	for r in results:
+		apk_info = apk(r[4], r[5])
+		apks.append(apk_info)
+	return apks
+

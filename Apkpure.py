@@ -84,10 +84,12 @@ if __name__ == "__main__":
 	# apks = Mysql.get_no_link_apks()
 	# for apk in apks:
 	#	get_download_link(apk)
+	# 获取所有文件大小满足所传入参数的 apk 的下载链接 5079
+	apks = Mysql.get_all_download_link(0, 25)
+	f = open("download_links.txt", "w")
+	for apk in apks:
+		f.write(apk.link)
+		f.write("\n")
+	f.close()
 
-	# 5079
-	apks = Mysql.get_apks(25)
-	print len(apks)
-	# for apk in apks:
-	#	print apk.link
 
