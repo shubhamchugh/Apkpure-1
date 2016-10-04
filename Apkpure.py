@@ -62,6 +62,13 @@ def get_detail_apk(arg):
 		print e
 
 
+def get_download_link(arg):
+	try:
+		html = get_soup(arg + "/download?from=details")
+		Mysql.update_apk_link(arg, html.find("a", id="download_link").attrs["href"])
+	except Exception, e:
+		print e
+
 if __name__ == "__main__":
 	# 爬取分类信息
 	# get_categorys()
@@ -69,11 +76,18 @@ if __name__ == "__main__":
 	# categorys = Mysql.get_all_categorys()
 	# for category in categorys:
 	#	 get_detail_page(category)
-	# 根据 url 爬取 apk 文件的大小与来源
-	# apks = Mysql.get_all_apks()
+	# 根据 url 爬取 apk 文件的大小、来源
+	# apks = Mysql.get_no_size_apks()
 	# for apk in apks:
-	#	 get_detail_apk(apk)
+	#	get_detail_apk(apk)
+	# 根据 url 爬取 apk 的下载链接
+	# apks = Mysql.get_no_link_apks()
+	# for apk in apks:
+	#	get_download_link(apk)
 
-	apks = Mysql.get_apks(24)
-	for apk in apks:
-		print apk.size
+	# 5079
+	apks = Mysql.get_apks(25)
+	print len(apks)
+	# for apk in apks:
+	#	print apk.link
+

@@ -60,7 +60,7 @@ def insert_apks(category, page, url):
 	close(conn)
 
 
-def get_all_apks():
+def get_no_size_apks():
 	conn = init()
 	cur = conn.cursor()
 	sql = "select * from apk_info where size = 0"
@@ -80,10 +80,30 @@ def update_apk_size(url, size, is_google):
 	close(conn)
 
 
+def get_no_link_apks():
+	conn = init()
+	cur = conn.cursor()
+	sql = "select * from apk_info where size > 0 and download_link is NULL"
+	cur.execute(sql)
+	results = cur.fetchall()
+	apks = list()
+	for r in results:
+		apks.append(r[3])
+	return apks
+
+
+def update_apk_link(url, link):
+	conn = init()
+	cur = conn.cursor()
+	sql = "update apk_info set download_link = %s where url = %s"
+	cur.execute(sql, [link, url])
+	close(conn)
+
+
 class apk:
-	def __init__(self, url, size):
-		self.url = url
+	def __init__(self, size, link):
 		self.size = size
+		self.link = link
 
 
 def get_apks(size):
@@ -94,6 +114,14 @@ def get_apks(size):
 	results = cur.fetchall()
 	apks = list()
 	for r in results:
-		apk_info = apk(r[3], r[4])
+		apk_info = apk(r[4], r[5])
 		apks.append(apk_info)
 	return apks
+
+
+def update_apk_download_link(url, link):
+	conn = init()
+	cur = conn.cursor()
+	sql = "update apk_info set download_link = %s where url = %s"
+	cur.execute(sql, [link, url])
+	close(conn)

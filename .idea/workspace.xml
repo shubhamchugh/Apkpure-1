@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5b8ef4-7389-4a42-b772-83e774292f97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apkpure.py" afterPath="$PROJECT_DIR$/Apkpure.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mysql.py" afterPath="$PROJECT_DIR$/Mysql.py" />
     </list>
@@ -18,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Apkpure$Apkpure.coverage" NAME="Apkpure Coverage Results" MODIFIED="1475547079060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Apkpure$Apkpure.coverage" NAME="Apkpure Coverage Results" MODIFIED="1475563662007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,27 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Apkpure.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Apkpure.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apkpure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="281">
+              <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
                 <element signature="e#196#321#0" expanded="false" />
                 <element signature="e#346#511#0" expanded="false" />
                 <element signature="e#541#857#0" expanded="false" />
                 <element signature="e#886#1529#0" expanded="false" />
+                <marker date="1475563662000" expanded="false" signature="1559:1726" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mysql.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+            <state relative-caret-position="-117">
+              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
               <folding>
                 <element signature="e#30#140#0" expanded="false" />
                 <element signature="e#161#222#0" expanded="false" />
@@ -57,23 +56,29 @@
                 <element signature="e#431#608#0" expanded="false" />
                 <element signature="e#637#829#0" expanded="false" />
                 <element signature="e#866#1050#0" expanded="false" />
-                <element signature="e#1523#1681#0" expanded="false" />
-                <element signature="e#1696#1762#0" expanded="false" />
-                <element signature="e#1786#2048#0" expanded="false" />
-                <marker date="1475547056000" expanded="true" signature="287:328" ph="select count... category" />
-                <marker date="1475547056000" expanded="true" signature="287:332" ph="select count... category" />
-                <marker date="1475547056000" expanded="true" signature="293:328" ph="SELECT count... category" />
-                <marker date="1475547056000" expanded="true" signature="528:561" ph="insert into apk_info... " />
-                <marker date="1475547056000" expanded="true" signature="528:562" ph="insert into category... " />
-                <marker date="1475547056000" expanded="true" signature="528:566" ph="insert into category... " />
-                <marker date="1475547056000" expanded="true" signature="680:702" ph="select * fro... category" />
-                <marker date="1475547056000" expanded="true" signature="909:972" ph="select count... apk_info" />
-                <marker date="1475547056000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
-                <marker date="1475547056000" expanded="true" signature="1327:1364" ph="select * fro... apk_info" />
-                <marker date="1475547056000" expanded="true" signature="1566:1625" ph="update apk_i... " />
-                <marker date="1475547056000" expanded="true" signature="1572:1573" ph="select * fro... apk_info" />
-                <marker date="1475547056000" expanded="true" signature="1829:1866" ph="select * fro... apk_info" />
-                <marker date="1475547056000" expanded="true" signature="1829:1895" ph="select * fro... apk_info" />
+                <element signature="e#1092#1260#0" expanded="false" />
+                <element signature="e#1288#1480#0" expanded="false" />
+                <element signature="e#1527#1685#0" expanded="false" />
+                <element signature="e#1713#1931#0" expanded="false" />
+                <element signature="e#1967#2108#0" expanded="false" />
+                <element signature="e#2523#2664#0" expanded="false" />
+                <marker date="1475563605000" expanded="true" signature="287:328" ph="select count... category" />
+                <marker date="1475563605000" expanded="true" signature="287:332" ph="select count... category" />
+                <marker date="1475563605000" expanded="true" signature="293:328" ph="SELECT count... category" />
+                <marker date="1475563605000" expanded="true" signature="528:561" ph="insert into apk_info... " />
+                <marker date="1475563605000" expanded="true" signature="528:562" ph="insert into category... " />
+                <marker date="1475563605000" expanded="true" signature="528:566" ph="insert into category... " />
+                <marker date="1475563605000" expanded="true" signature="680:702" ph="select * fro... category" />
+                <marker date="1475563605000" expanded="true" signature="909:972" ph="select count... apk_info" />
+                <marker date="1475563605000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
+                <marker date="1475563605000" expanded="true" signature="1331:1368" ph="select * fro... apk_info" />
+                <marker date="1475563605000" expanded="true" signature="1570:1629" ph="update apk_i... " />
+                <marker date="1475563605000" expanded="true" signature="1576:1577" ph="select * fro... apk_info" />
+                <marker date="1475563605000" expanded="true" signature="1756:1819" ph="select * fro... apk_info" />
+                <marker date="1475563605000" expanded="true" signature="2010:2063" ph="update apk_i... " />
+                <marker date="1475563605000" expanded="true" signature="2259:2296" ph="select * fro... apk_info" />
+                <marker date="1475563605000" expanded="true" signature="2259:2325" ph="select * fro... apk_info" />
+                <marker date="1475563605000" expanded="true" signature="2566:2619" ph="update apk_i... " />
               </folding>
             </state>
           </provider>
@@ -440,7 +445,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31474105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41567066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -480,6 +485,7 @@
             <element signature="e#346#511#0" expanded="false" />
             <element signature="e#541#857#0" expanded="false" />
             <element signature="e#886#1529#0" expanded="false" />
+            <marker date="1475563662000" expanded="false" signature="1559:1726" ph="..." />
           </folding>
         </state>
       </provider>
@@ -495,23 +501,29 @@
             <element signature="e#431#608#0" expanded="false" />
             <element signature="e#637#829#0" expanded="false" />
             <element signature="e#866#1050#0" expanded="false" />
-            <element signature="e#1523#1681#0" expanded="false" />
-            <element signature="e#1696#1762#0" expanded="false" />
-            <element signature="e#1786#2048#0" expanded="false" />
-            <marker date="1475547056000" expanded="true" signature="287:328" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="287:332" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="293:328" ph="SELECT count... category" />
-            <marker date="1475547056000" expanded="true" signature="528:561" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="528:562" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="528:566" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="680:702" ph="select * fro... category" />
-            <marker date="1475547056000" expanded="true" signature="909:972" ph="select count... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="1327:1364" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1566:1625" ph="update apk_i... " />
-            <marker date="1475547056000" expanded="true" signature="1572:1573" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1866" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1895" ph="select * fro... apk_info" />
+            <element signature="e#1092#1260#0" expanded="false" />
+            <element signature="e#1288#1480#0" expanded="false" />
+            <element signature="e#1527#1685#0" expanded="false" />
+            <element signature="e#1713#1931#0" expanded="false" />
+            <element signature="e#1967#2108#0" expanded="false" />
+            <element signature="e#2523#2664#0" expanded="false" />
+            <marker date="1475563605000" expanded="true" signature="287:328" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="287:332" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="293:328" ph="SELECT count... category" />
+            <marker date="1475563605000" expanded="true" signature="528:561" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="528:562" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="528:566" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="680:702" ph="select * fro... category" />
+            <marker date="1475563605000" expanded="true" signature="909:972" ph="select count... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="1331:1368" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1570:1629" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="1576:1577" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1756:1819" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2010:2063" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="2259:2296" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2259:2325" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2566:2619" ph="update apk_i... " />
           </folding>
         </state>
       </provider>
@@ -526,6 +538,7 @@
             <element signature="e#346#511#0" expanded="false" />
             <element signature="e#541#857#0" expanded="false" />
             <element signature="e#886#1529#0" expanded="false" />
+            <marker date="1475563662000" expanded="false" signature="1559:1726" ph="..." />
           </folding>
         </state>
       </provider>
@@ -541,23 +554,29 @@
             <element signature="e#431#608#0" expanded="false" />
             <element signature="e#637#829#0" expanded="false" />
             <element signature="e#866#1050#0" expanded="false" />
-            <element signature="e#1523#1681#0" expanded="false" />
-            <element signature="e#1696#1762#0" expanded="false" />
-            <element signature="e#1786#2048#0" expanded="false" />
-            <marker date="1475547056000" expanded="true" signature="287:328" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="287:332" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="293:328" ph="SELECT count... category" />
-            <marker date="1475547056000" expanded="true" signature="528:561" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="528:562" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="528:566" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="680:702" ph="select * fro... category" />
-            <marker date="1475547056000" expanded="true" signature="909:972" ph="select count... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="1327:1364" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1566:1625" ph="update apk_i... " />
-            <marker date="1475547056000" expanded="true" signature="1572:1573" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1866" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1895" ph="select * fro... apk_info" />
+            <element signature="e#1092#1260#0" expanded="false" />
+            <element signature="e#1288#1480#0" expanded="false" />
+            <element signature="e#1527#1685#0" expanded="false" />
+            <element signature="e#1713#1931#0" expanded="false" />
+            <element signature="e#1967#2108#0" expanded="false" />
+            <element signature="e#2523#2664#0" expanded="false" />
+            <marker date="1475563605000" expanded="true" signature="287:328" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="287:332" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="293:328" ph="SELECT count... category" />
+            <marker date="1475563605000" expanded="true" signature="528:561" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="528:562" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="528:566" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="680:702" ph="select * fro... category" />
+            <marker date="1475563605000" expanded="true" signature="909:972" ph="select count... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="1331:1368" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1570:1629" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="1576:1577" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1756:1819" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2010:2063" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="2259:2296" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2259:2325" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2566:2619" ph="update apk_i... " />
           </folding>
         </state>
       </provider>
@@ -572,6 +591,7 @@
             <element signature="e#346#511#0" expanded="false" />
             <element signature="e#541#857#0" expanded="false" />
             <element signature="e#886#1529#0" expanded="false" />
+            <marker date="1475563662000" expanded="false" signature="1559:1726" ph="..." />
           </folding>
         </state>
       </provider>
@@ -587,23 +607,29 @@
             <element signature="e#431#608#0" expanded="false" />
             <element signature="e#637#829#0" expanded="false" />
             <element signature="e#866#1050#0" expanded="false" />
-            <element signature="e#1523#1681#0" expanded="false" />
-            <element signature="e#1696#1762#0" expanded="false" />
-            <element signature="e#1786#2048#0" expanded="false" />
-            <marker date="1475547056000" expanded="true" signature="287:328" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="287:332" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="293:328" ph="SELECT count... category" />
-            <marker date="1475547056000" expanded="true" signature="528:561" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="528:562" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="528:566" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="680:702" ph="select * fro... category" />
-            <marker date="1475547056000" expanded="true" signature="909:972" ph="select count... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="1327:1364" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1566:1625" ph="update apk_i... " />
-            <marker date="1475547056000" expanded="true" signature="1572:1573" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1866" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1895" ph="select * fro... apk_info" />
+            <element signature="e#1092#1260#0" expanded="false" />
+            <element signature="e#1288#1480#0" expanded="false" />
+            <element signature="e#1527#1685#0" expanded="false" />
+            <element signature="e#1713#1931#0" expanded="false" />
+            <element signature="e#1967#2108#0" expanded="false" />
+            <element signature="e#2523#2664#0" expanded="false" />
+            <marker date="1475563605000" expanded="true" signature="287:328" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="287:332" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="293:328" ph="SELECT count... category" />
+            <marker date="1475563605000" expanded="true" signature="528:561" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="528:562" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="528:566" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="680:702" ph="select * fro... category" />
+            <marker date="1475563605000" expanded="true" signature="909:972" ph="select count... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="1331:1368" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1570:1629" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="1576:1577" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1756:1819" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2010:2063" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="2259:2296" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2259:2325" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2566:2619" ph="update apk_i... " />
           </folding>
         </state>
       </provider>
@@ -618,28 +644,15 @@
             <element signature="e#346#511#0" expanded="false" />
             <element signature="e#541#857#0" expanded="false" />
             <element signature="e#886#1529#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apkpure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <element signature="e#196#321#0" expanded="false" />
-            <element signature="e#346#511#0" expanded="false" />
-            <element signature="e#541#857#0" expanded="false" />
-            <element signature="e#886#1529#0" expanded="false" />
+            <marker date="1475563662000" expanded="false" signature="1559:1726" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        <state relative-caret-position="-117">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
           <folding>
             <element signature="e#30#140#0" expanded="false" />
             <element signature="e#161#222#0" expanded="false" />
@@ -647,23 +660,44 @@
             <element signature="e#431#608#0" expanded="false" />
             <element signature="e#637#829#0" expanded="false" />
             <element signature="e#866#1050#0" expanded="false" />
-            <element signature="e#1523#1681#0" expanded="false" />
-            <element signature="e#1696#1762#0" expanded="false" />
-            <element signature="e#1786#2048#0" expanded="false" />
-            <marker date="1475547056000" expanded="true" signature="287:328" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="287:332" ph="select count... category" />
-            <marker date="1475547056000" expanded="true" signature="293:328" ph="SELECT count... category" />
-            <marker date="1475547056000" expanded="true" signature="528:561" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="528:562" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="528:566" ph="insert into category... " />
-            <marker date="1475547056000" expanded="true" signature="680:702" ph="select * fro... category" />
-            <marker date="1475547056000" expanded="true" signature="909:972" ph="select count... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
-            <marker date="1475547056000" expanded="true" signature="1327:1364" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1566:1625" ph="update apk_i... " />
-            <marker date="1475547056000" expanded="true" signature="1572:1573" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1866" ph="select * fro... apk_info" />
-            <marker date="1475547056000" expanded="true" signature="1829:1895" ph="select * fro... apk_info" />
+            <element signature="e#1092#1260#0" expanded="false" />
+            <element signature="e#1288#1480#0" expanded="false" />
+            <element signature="e#1527#1685#0" expanded="false" />
+            <element signature="e#1713#1931#0" expanded="false" />
+            <element signature="e#1967#2108#0" expanded="false" />
+            <element signature="e#2523#2664#0" expanded="false" />
+            <marker date="1475563605000" expanded="true" signature="287:328" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="287:332" ph="select count... category" />
+            <marker date="1475563605000" expanded="true" signature="293:328" ph="SELECT count... category" />
+            <marker date="1475563605000" expanded="true" signature="528:561" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="528:562" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="528:566" ph="insert into category... " />
+            <marker date="1475563605000" expanded="true" signature="680:702" ph="select * fro... category" />
+            <marker date="1475563605000" expanded="true" signature="909:972" ph="select count... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1135:1205" ph="insert into apk_info... " />
+            <marker date="1475563605000" expanded="true" signature="1331:1368" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1570:1629" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="1576:1577" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="1756:1819" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2010:2063" ph="update apk_i... " />
+            <marker date="1475563605000" expanded="true" signature="2259:2296" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2259:2325" ph="select * fro... apk_info" />
+            <marker date="1475563605000" expanded="true" signature="2566:2619" ph="update apk_i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apkpure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#196#321#0" expanded="false" />
+            <element signature="e#346#511#0" expanded="false" />
+            <element signature="e#541#857#0" expanded="false" />
+            <element signature="e#886#1529#0" expanded="false" />
+            <marker date="1475563662000" expanded="false" signature="1559:1726" ph="..." />
           </folding>
         </state>
       </provider>
